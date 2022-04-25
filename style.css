@@ -1,0 +1,17 @@
+type{
+	font-family: Cambria;
+	font-weight: bolder;
+	background:lightsalmon;
+}
+name{
+	font-family: Cambria;
+	font-weight: lighter;
+	background-color: lightcoral;
+	color:lightcyan;
+}
+author{
+	font-family: Cambria;
+	font-weight: bolder;
+	background-color: lightcoral;
+	color:lightcyan;
+}

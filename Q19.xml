@@ -1,0 +1,25 @@
+<?xml id="cont" version="1.0"?>
+<?xml-stylesheet href="style.css"?>
+<!DOCTYPE books[
+    <!ELEMENT books (type,name,author)>
+    <!ELEMENT type (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+]>
+<store>
+<books>
+    <type>Fiction</type>
+    <name>Harry Potter</name>
+    <author>J.K. Rowling</author>
+</books>
+<books>
+    <type>Fiction</type>
+    <name>Charlie and The Chocolate Factory</name>
+    <author>Roald Dahl</author>
+</books>
+<books>
+    <type>Philosophical</type>
+    <name>Who Moved my Chese?</name>
+    <author>Spencer Jhonson</author>
+</books>
+</store>
