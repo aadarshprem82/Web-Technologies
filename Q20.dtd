@@ -1,0 +1,5 @@
+<!ELEMENT teacher (name, subject, age, deg)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT deg (#PCDATA)>

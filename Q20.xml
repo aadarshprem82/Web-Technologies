@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="style.css"?>
+<!DOCTYPE teacher SYSTEM "Q20.dtd">
+<college>
+<teacher>
+	<name>Aadarsh</name>
+	<subject>Python Programming</subject>
+	<age>22</age>
+	<deg>Assistant Professor</deg>
+</teacher>
+<teacher>
+	<name>Ajit</name>
+	<subject>Java Programming</subject>
+	<age>20</age>
+	<deg>Junior Researcher</deg>
+</teacher>
+</college>

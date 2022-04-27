@@ -1,0 +1,94 @@
+<!Doctype html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>Registration Form</title>
+<style>
+	label, input{
+		font-weight:bold ;
+		font-family:Roboto, Arial, Helvetica, sans-serif;
+	}
+	h1{
+		color:whitesmoke;
+		font-size: 100px;
+	}
+	label{
+		color: lightsalmon;
+	}
+	.cont{
+		transform: translate(150px,40px);
+		border-radius: 15px;
+		padding: 30px;
+		background-color: wheat;
+		width: 400px;
+	}
+	.pic{
+		width: 600px;
+		transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+		float: right;
+	}
+</style>
+</head>
+<body bgcolor="white" background="college.jpg" repeat="no">
+	<table>
+        <tr>
+            <td><img src="mylogo.png" alt="log" width="120" height="120"></td>
+            <td><marquee width="1780px" style="font-size:80px; color:whitesmoke;font-weight:bolder; font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Bosco Technical Training Society</marquee></td>
+        </tr>
+    </table>
+<h1 align="left" style="font-family: Roboto, Arial, Helvetica, sans-serif ;">Registration Form</h1>
+<div class="pic">
+	<img src="mylogo1.png">
+</div>
+<form>
+<div class="cont">
+<table>
+	<tr>
+		<td><label>Name</label></td>
+		<td><input type="text" name="sname"></td>
+	</tr>
+	<tr>
+		<td><label>Date of Birth </label></td>
+		<td><input type="date" name="dob"></td>
+	</tr>
+	<tr>
+		<td><label>Gender</label></td>
+		<td><input type="radio" name="gen" value="Male">Male
+		<input type="radio" name="gen" value="Female">Female
+		<input type="radio" name="gen" value="Others">Others</td>
+	</tr>
+	<tr>
+		<td><label>Father's Name</label></td>
+		<td><input type="text" name="fthname"></td>
+	</tr>
+	<tr>
+		<td><label>Mother's Name</label></td>
+		<td><input type="text" name="mname"></td>
+	</tr>
+	<tr>
+		<td><label>Course</label></td>
+		<td><input type="radio" name="cor" value="BTech.">BTech.
+		<input type="radio" name="cor" value="BCA">BCA
+		<input type="radio" name="cor" value="BBA">BBA</td>
+
+	</tr>
+	<tr>
+		<td><label>Hobbies</label></td>
+		<td><select name="hobby" id="hobby">
+		<option value="Hobbies">Hobbies</option>
+		<option value="circket">Playing Cricket</option>
+		<option value="music">Listening to Music</option>
+		<option value="books">Reading Books</option></td>
+	</tr>
+	<tr>
+		<td><label>Address</label></td>
+		<td><textarea rows="3" cols="20"></textarea></td>
+	</tr>
+</table></div>
+<div align="center" class="cont">
+<input type="submit">
+<input type="button" value="Clear">
+<input type="button" value="Validate"></div>
+</form>
+</body>
+</html>

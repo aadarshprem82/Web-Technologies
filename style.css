@@ -1,4 +1,4 @@
-type{
+subject{
 	font-family: Cambria;
 	font-weight: bolder;
 	background:lightsalmon;
@@ -9,9 +9,12 @@ name{
 	background-color: lightcoral;
 	color:lightcyan;
 }
-author{
+age, deg{
 	font-family: Cambria;
 	font-weight: bolder;
 	background-color: lightcoral;
 	color:lightcyan;
+}
+subject, name, age, deg{
+	display:block;
 }
